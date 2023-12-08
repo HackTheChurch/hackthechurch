@@ -41,6 +41,13 @@ p {
   flex-direction: column;
   align-items: flex-start;
 }
+.line-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 h1 {
   font-size: 3rem;
   margin: 0;
@@ -58,4 +65,5 @@ button {
   background: none;
   font-family: "M PLUS 1 Code";
   color: #fff;
+  margin-right: 1rem;
 }
