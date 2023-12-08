@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'M PLUS 1 Code';
+    src: url('MPLUS1Code-Regular.woff2') format('woff2'),
+        url('MPLUS1Code-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
