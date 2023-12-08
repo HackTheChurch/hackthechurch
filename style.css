@@ -10,14 +10,27 @@ body {
   font-size: 1.1rem;
 }
 
-.cover {
+section {
   width: 90vw;
   max-width: 1200px;
-  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+footer {
+  background-color: #000;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.cover {
+  min-height: 70vh;
 }
 .date {
   font-size: 1.4rem;
@@ -37,7 +50,7 @@ h1 {
 button {
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   border: 1px solid #fff;
   border-radius: 12px;
   font-size: 1.2rem;
