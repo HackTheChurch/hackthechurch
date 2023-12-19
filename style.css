@@ -151,7 +151,7 @@ ul {
   }
 }
 
-button {
+.button {
   cursor: pointer;
   text-decoration: none;
   display: flex;
@@ -166,6 +166,6 @@ button {
   transition: 200ms;
 }
 
-button:hover {
+.button:hover {
   background: #bb3e3e42;
 }
