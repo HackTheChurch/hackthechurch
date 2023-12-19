@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Prague
+X-LIC-LOCATION:Europe/Prague
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20231219T130119Z
+UID:1702990754293-7232257@ical.marudot.com
+DTSTART;TZID=Europe/Prague:20240216T180000
+DTEND;TZID=Europe/Prague:20240218T130000
+SUMMARY:HackTheChurch
+URL:https://hackthechurch.cz/
+DESCRIPTION:Pojďme společně pomocí moderních technologií zkusit řešit problémy a výzvy v církvi.\n\nPŘÍBĚH AKCE\nJsi datový analytik? Děláš v marketingu? Bastlíš či programuješ? Staráš se o to\, aby aplikace pro uživatele byly přívětivé? Trénuješ modely\, hrabeš se v počítačových sítích? Nebo Tě jen prostě baví moderní technologie a rád pomocí nich řešíš problémy kolem sebe?\n\nJsme parta třech kluků\, co pro takové chvíle žijí. Proto jsme se rozhodli uspořádat na DCŽM Vesmír historicky první hackathon. Můžeš se těšit na diskuze\, společné tvoření\, zajímavý workshop ale především na hackování problémů.\n\n\nNA CO SE PŘIPRAVIT\nZačínáme v pátek večeří v 18h. Hackathon vypukne v pátek večer a skončí v sobotu před obědem. Odpoledne v sobotu bude prostor pro networking a sdílení zkušeností. Těšit se můžete také na zajímavý workshop či diskuzi s několika hosty. Sebou si nezapomeň přibalit notebook\, věci na bastlení a cokoliv\, co by se ti mohlo hodit při hachatkohnu. Doporučený příspěvek na Vesmíru je 270\,-Kč za den. Pro účast na hackathonu je potřeba být na akci od začátku.\n\n\nMáš nějakou otázku? Napiš na info@hackthechurch.cz.
+LOCATION:DCŽM Vesmír
+END:VEVENT
+END:VCALENDAR
