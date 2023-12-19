@@ -40,6 +40,7 @@ footer {
   background-color: #000;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 p {
@@ -65,7 +66,7 @@ a {
   min-height: 70vh;
 }
 .date {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .gray-container {
   background: #fff;
@@ -93,7 +94,7 @@ a {
   border-radius: 12px;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   font-weight: 900;
 }
@@ -105,7 +106,7 @@ h2 {
 }
 
 .description {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   letter-spacing: 0.15rem;
 }
 
@@ -135,6 +136,18 @@ ul {
   }
   .right .container {
     margin-left: 2rem;
+  }
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 900;
+  }
+  .description {
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+  }
+  .date {
+    font-size: 1.6rem;
   }
 }
 
