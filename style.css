@@ -155,13 +155,13 @@ button {
   cursor: pointer;
   text-decoration: none;
   display: flex;
-  border: 1px solid #bb3e3e;
+  border: 1px solid #ff5555;
   border-radius: 4px;
   font-size: 1.4rem;
   padding: 20px;
   background: none;
   font-family: "M PLUS 1 Code";
-  color: #bb3e3e;
+  color: #ff5555;
   margin-right: 1rem;
   transition: 200ms;
 }
