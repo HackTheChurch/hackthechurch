@@ -42,6 +42,8 @@ p {
 
 .pargraph {
   margin-bottom: 1rem;
+  font-size: 1.4rem;
+  width: 100%;
 }
 
 a {
@@ -56,7 +58,7 @@ a {
   min-height: 70vh;
 }
 .date {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
 }
 .gray-container {
   background: #fff;
@@ -84,26 +86,50 @@ a {
   border-radius: 12px;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0;
   font-weight: 900;
+}
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 100%;
+}
+
+.description {
+  font-size: 1.8rem;
+  letter-spacing: 0.15rem;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.image-right {
+  width: 100%;
+}
+.image-left {
+  width: 100%;
 }
 
 button {
   cursor: pointer;
   text-decoration: none;
   display: flex;
-  border: 1px solid #fff;
-  border-radius: 12px;
-  font-size: 1rem;
-  padding: 10px;
+  border: 1px solid #bb3e3e;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  padding: 20px;
   background: none;
   font-family: "M PLUS 1 Code";
-  color: #fff;
+  color: #bb3e3e;
   margin-right: 1rem;
   transition: 200ms;
 }
 
 button:hover {
-  background: #444;
+  background: #bb3e3e42;
 }
