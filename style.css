@@ -79,25 +79,9 @@ a {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-@media only screen and (min-width: 600px) {
-  .col {
-    width: 50vw;
-    max-width: 600px;
-  }
-  .ilustration {
-    width: 40vw;
-    max-width: 350px;
-  }
-}
 .ilustration {
   width: 100%;
   border-radius: 12px;
-}
-.double-col {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
 }
 h1 {
   font-size: 3rem;
