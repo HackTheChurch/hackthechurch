@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Prague
+X-LIC-LOCATION:Europe/Prague
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20231219T130119Z
+UID:1702990754293-7232257@ical.marudot.com
+DTSTART;TZID=Europe/Prague:20240216T180000
+DTEND;TZID=Europe/Prague:20240218T130000
+SUMMARY:HackTheChurch
+URL:https://hackthechurch.cz/
+DESCRIPTION:Let's try to solve problems and challenges in the church together using modern technologies.\n\nEVENT OVERVIEW\nAre you a data analyst? Do you work in marketing? Do you tinker or program? Are you concerned about making applications user-friendly? Are you training models, digging into computer networks? Or does modern technology just simply entertain you and you enjoy solving problems around you with it?\n\nWe are a group of three guys who live for such moments. That's why we decided to organize the first historical hackathon at DCŽM Vesmír. You can look forward to discussions, joint creation, an interesting workshop but most importantly problem hacking.\n\n\nWHAT TO PREPARE FOR\nWe start on Friday evening with dinner at 6 pm. The hackathon will kick off in the evening and end on Saturday before lunch. There will be space for networking and sharing experiences in the afternoon on Saturday. You can also look forward to an interesting workshop or discussion with several guests. Don't forget to bring a notebook, things for tinkering and anything else that might be useful during the hackathon. The recommended contribution to Vesmír is 270,-CZK per day. To participate in the hackathon, you need to be present at the event from the beginning.\n\n\nDo you have any questions? Write to info@hackthechurch.cz.
+LOCATION:DCŽM Vesmír
+END:VEVENT
+END:VCALENDAR
