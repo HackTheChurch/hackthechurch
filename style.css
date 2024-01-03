@@ -136,6 +136,15 @@ ul {
   transition: 200ms;
 }
 
+.language {
+  width: 90vw;
+  max-width: 1200px;
+  margin-top: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
 .button:hover {
   background: #bb3e3e42;
 }
