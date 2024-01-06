@@ -38,7 +38,7 @@ section {
 
 footer {
   background-color: #000;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -119,6 +119,7 @@ ul {
 .image {
   width: 100%;
   border-radius: 4px;
+  z-index: 5;
 }
 
 .button {
@@ -171,6 +172,7 @@ ul {
 }
 .profile {
   margin-bottom: 3rem;
+  z-index: 5;
   background: #0c0c0c;
   padding: 2rem;
   border-radius: 10px;
@@ -178,6 +180,25 @@ ul {
 
 .profile h3 {
   margin-bottom: 0;
+}
+
+.sponsors {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40vw;
+  max-width: 60px;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+.logo:hover {
+  filter: grayscale(0);
 }
 
 @media screen and (min-width: 800px) {
@@ -211,5 +232,8 @@ ul {
   }
   .profiles {
     flex-direction: row;
+  }
+  .logo {
+    max-width: 100px;
   }
 }
