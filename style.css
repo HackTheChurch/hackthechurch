@@ -119,6 +119,7 @@ ul {
 .image {
   width: 100%;
   border-radius: 4px;
+  z-index: 5;
 }
 
 .button {
@@ -171,6 +172,7 @@ ul {
 }
 .profile {
   margin-bottom: 3rem;
+  z-index: 5;
   background: #0c0c0c;
   padding: 2rem;
   border-radius: 10px;
