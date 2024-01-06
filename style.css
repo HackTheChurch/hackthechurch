@@ -38,7 +38,7 @@ section {
 
 footer {
   background-color: #000;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -182,6 +182,25 @@ ul {
   margin-bottom: 0;
 }
 
+.sponsors {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40vw;
+  max-width: 60px;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+.logo:hover {
+  filter: grayscale(0);
+}
+
 @media screen and (min-width: 800px) {
   .image {
     width: 50vw;
@@ -213,5 +232,8 @@ ul {
   }
   .profiles {
     flex-direction: row;
+  }
+  .logo {
+    max-width: 100px;
   }
 }
